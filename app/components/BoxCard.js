@@ -3,9 +3,9 @@ import { View, StyleSheet, Image } from "react-native";
 import Title from "./Title";
 import SubTitle from "./SubTitle";
 
-const BoxCard = () => {
+const BoxCard = ({ style }) => {
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, style]}>
       <Image source={require("../../assets/news.jpg")} style={styles.image} />
       <View style={styles.contentContainer}>
         <Title>Some Title</Title>

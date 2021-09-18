@@ -4,11 +4,12 @@ import { StyleSheet, Text, View } from "react-native";
 import Searchbar from "./app/components/Searchbar";
 import Screen from "./app/components/Screen";
 import BoxCard from "./app/components/BoxCard";
+import FeaturedNews from "./app/components/FeaturedNews";
 
 export default function App() {
   return (
     <Screen>
-      <BoxCard />
+      <FeaturedNews />
     </Screen>
   );
 }
